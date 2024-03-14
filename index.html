@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./reset.css">
+    <title>Generate Your Age</title>
+</head>
+<body>
+    <main class="main-wrapper">
+        <div class="first-wrapper">
+            <form>
+                <div class="wrapper-input">
+                    <div class="day">
+                        <p>DAY</p>
+                        <input type="number" id="day" placeholder="DD">
+                        <small></small>
+                    </div>
+                    <div class="month">
+                        <p>MONTH</p>
+                        <input type="number" id="month" placeholder="MM">
+                        <small></small>
+                    </div>
+                    <div class="year">
+                        <p>YEAR</p>
+                        <input type="number" id="year" placeholder="YYYY">
+                        <small></small>
+                    </div>
+                    <button type="submit">&#10004</button>
+                </div>
+            </form>
+            <div class="second-wrapper">
+                <h1><span id="YY">--</span>Years</h1>
+                <h1><span id="MM">--</span>Month</h1>
+                <h1><span id="DD">--</span>Days</h1>
+                <p class="footer">https://hawinf.netlify.app/</p>
+            </div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
